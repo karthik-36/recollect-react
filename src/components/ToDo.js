@@ -1,17 +1,13 @@
 import React from 'react'
+import Tile from './Tile'
 
 function ToDo(){
 return (
-<div>
-<input type = "checkbox" value = "karthik"/>
-<label> karthik buy </label> <br />
-<input type = "checkbox" value = "karthik1"/>
-<label> karthik buy 1</label> <br />
-<input type = "checkbox" value = "karthik2"/>
-<label> karthik buy 2</label> <br />
-<input type = "checkbox" value = "karthik3"/>
-<label> karthik buy 2</label> <br />
-<input type="submit" value="Submit" />
+<div className = "firstCheckBox">
+<Tile name = {"karthik11"} age = {19} />
+<Tile name = "rahul" age = {21} />
+<Tile name = "ashutosh"  age = {15} />
+<Tile />
 </div>
 )
 }

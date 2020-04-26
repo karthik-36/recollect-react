@@ -6,10 +6,13 @@ import MyInfo from "./components/MyInfo.js"
 import Footer from "./components/Footer.js"
 import Header from "./components/Header.js"
 import ToDo from "./components/ToDo.js"
+import Firstjs from "./components/First.js"
 
 function Sections(){
 return (
   <div>
+  <Firstjs />
+  <Header />
   <ToDo/>
   </div>
 )
