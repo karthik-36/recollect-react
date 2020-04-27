@@ -12,3 +12,14 @@ text-align: center;
 text-align: center;
 
 }
+
+.jokeHolder{
+text-align: center;
+background-color: rgba(255, 0, 0, 0.5);
+}
+
+.borderBox{
+text-align: center;
+ border: 1px solid red;
+
+}

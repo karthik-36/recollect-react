@@ -1,21 +1,28 @@
+/*
 
-import React from 'react'
-import ReactDOM from 'react-dom'
-import './style.css'
-import MyInfo from "./components/MyInfo.js"
-import Footer from "./components/Footer.js"
-import Header from "./components/Header.js"
-import ToDo from "./components/ToDo.js"
-import Firstjs from "./components/First.js"
+Challenge:
+1. Convert all 3 components to be class-based
+2. Fix the small bug
 
-function Sections(){
-return (
-  <div>
-  <Firstjs />
-  <Header />
-  <ToDo/>
-  </div>
-)
+*/
+
+import React from "react"
+import ReactDOM from "react-dom"
+
+import App from './components/App.js'
+
+// #1
+/*
+function App() {
+    return (
+        <div>
+            <Header />
+            <Greeting />
+        </div>
+    )
 }
+*/
+//class A
 
-ReactDOM.render( <Sections />, document.getElementById('root'));
+
+ReactDOM.render(<App />, document.getElementById("root"))
