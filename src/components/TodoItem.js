@@ -2,6 +2,7 @@
 import React from "react"
 
 function TodoItem(props) {
+
     return (
         <div className="todo-item">
             <input
@@ -11,9 +12,10 @@ function TodoItem(props) {
                    console.log("Changed!")}
               }
             />
-            <p>{props.item.text}</p>
+            {props.item.completed ? <p style = {{ backgroundColor : "rgba(50,50,50,0.5)" }} ><del>{props.item.text}</del></p> : <p > {props.item.text} </p>}
         </div>
     )
+
 }
 
 export default TodoItem
